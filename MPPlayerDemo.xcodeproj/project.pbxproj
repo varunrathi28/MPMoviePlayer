@@ -13,6 +13,7 @@
 		374666511D926C9E00B6DB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3746664F1D926C9E00B6DB4D /* Main.storyboard */; };
 		374666531D926C9E00B6DB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374666521D926C9E00B6DB4D /* Assets.xcassets */; };
 		374666561D926C9E00B6DB4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374666541D926C9E00B6DB4D /* LaunchScreen.storyboard */; };
+		3746665E1D9271F800B6DB4D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3746665D1D9271F800B6DB4D /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		374666521D926C9E00B6DB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		374666551D926C9E00B6DB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		374666571D926C9E00B6DB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3746665D1D9271F800B6DB4D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3746665E1D9271F800B6DB4D /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 		3746663A1D926C9E00B6DB4D = {
 			isa = PBXGroup;
 			children = (
+				3746665D1D9271F800B6DB4D /* MobileCoreServices.framework */,
 				374666451D926C9E00B6DB4D /* MPPlayerDemo */,
 				374666441D926C9E00B6DB4D /* Products */,
 			);
@@ -266,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MPPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.novoinvent.MPPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -277,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MPPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.novoinvent.MPPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <MediaPlayer/MediaPlayer.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 
 
+@property (nonatomic, strong) MPMoviePlayerController * moviePlayerController;
+@property (nonatomic, strong ) NSURL * movieURL;
 @end
 
